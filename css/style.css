@@ -1,16 +1,17 @@
 body{
     margin:0;
     padding: 0;
-    background:rgb(218, 234, 240);
+    background:white;
 }
+/* logo menu */
 img{
-    width:100px;
-
+    width:200px;
 }
 span{
-    margin-right: 350px;
+ margin-right: 70%;
 }
-.container{
+/* homepage menu */
+.container-menu{
    background:teal;
    overflow: hidden;
    padding:0px;
@@ -20,79 +21,394 @@ span{
 ul{
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end
 }
 ul li {
-    padding: 5px;
-    margin-right: 65px;
+    padding:5px;
+    margin-right:65px;
 }
 ul li a{
     text-decoration: none;
     text-transform: uppercase;
     color:white;
-    font-size: 15px;
+    font-size: 20px;
 }
 ul li a:hover{
     background-color: #ddd;
 }
-h1{
-    font-size: 10px;
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 6px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+/* # footer in homepage */
+.letter{
+  background: orange;
+  margin-top: 400px;
+  text-align:center;
+  font-size: 20px;
+}
+h6{
+  margin-right: 620px;
+  color: rgb(17, 17, 126);
+}
+/* # images in homepages in body there are 4 picture*/
+.body img{
+  width:300px;
+  height: 30vh;
+  display: flex;
+  float: left;
+  padding: 20px;
+  margin: 20px;
+}
+/* # */
+
+/* # end code css in homepage */
+
+
+/* #in for login */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+  }
+
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  /*  */
+
+  /* images in homepage  */
+  .imags img{
+    width:320px;
+    margin-left: 100px;
+  }
+  .photo img{
+    width: 360px;
+    margin-left:100px;
+    height: 30vh;
+  } 
+  /* / */
+  h1{
+    font-size: 50px;
+    margin-top:100px;
+    width:300px;
+    margin:auto;
+  }
+  h1:hover{
+    background: orange;
+  }
+  h4{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(13, 172, 92);
+    
+  }
 .h4{
     width: 100%;
     height: 10vh;
     background: rgb(245, 193, 202);
     margin-bottom: 10px;
     margin-top: 200px;
-    
+    margin-right:40px;
 }
-h5{
-    font-size: 20px;
-    color:rgb(13, 13, 212);
-}
-h4{
-    text-align: center;
-}
-h6{
-    padding: 0px;
-    font-size:10px;
-    margin-left: 25px;
-}
-.imag img{
-    width:200px;
-    height: 20vh;
-    float:left;
-    margin-bottom:50px;
-    margin-left: 60px;
-}
-.index img{
-    width: 90%;
-    height: 80vh;
-    margin: 20px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-footer{
-    width: 150%;
-    height: 10vh;
-    background: rgb(8, 44, 44);
-    margin-bottom: 10px;
-    margin-top: 200px;
-}
-input[type="text"]{
-    width: 200px;
-}
-.photos img {
-    height: 70vh;
-    width:60%;
-    margin-top: 10px;
-    margin-right:10px;
+input[type="search"]{
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 30px;
 }
 .p{
-   color:blue; 
+   color:red; 
+   font-size: 30px;
 }
 p{
     font-size: 20px;
+}
+/* form login in Page contact */
+.Form-login{
+  background: rgba(252, 235, 235, 0.4);
+  border-radius: 50px;
+  margin-bottom:50px;
+  margin:auto;
+}
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  width: 560px;
+  display: block;
+  margin-left: 440px;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  width: 60%;
+  margin:auto
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* # end form -login  */
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+h3{
+  font-size: 30px;
+  color: blue;
+}
+h2{
+  color: white;
+  text-transform: uppercase;
+}
+h5{
+  font-size: 30px;
+}
+.text{
+  font-size: 20px;
+}
+
+.index img{
+  width: 90%;
+  height: 90vh;
+}
+.index-text{
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+.foot{
+  background: orange;
+  font-size: 50px;
+  height: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* photos in Pages Photos */
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width:30%;
+  height: 60vh;
+  margin-top: 100px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* #finish of put photos in page photos */
+
+/* header of text  in page photos */
+.pages p{
+  text-align: center;
+  font-size: 50px;
+  color: teal;
+}
+/* / */
+
+/* class end of photos */
+.end h2{
+  margin-top: 30px;
+  color: rgb(21, 23, 136);
+  text-align: center;
+}
+/* # images in Page Educations */
+.education-page img{
+    width: 90%;
+    height: 90vh;
+    margin-top:40px ;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+/* #style css of class h3 */
+.h3 p{
+  text-align: center;
+  font-size: 60px;
+}
+/* class box */
+.box{
+  background: rgba(129, 123, 123, 0.6);
+  width:100%;
+  height:80px;
+  margin: auto;
+  margin-top:5px;
+  font-size: 30px;
+}
+/* * # page .education meun on picture */ */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
 }
