@@ -7,48 +7,45 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-      <div class="images1">
-        <img src="images/images.jpg">
-      </div>
       <div class="container-menu">
           <ul>
-            <li><a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a> </li>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <li><a href="home.html"><i class="fa fa-fw fa-home"></i>Home</a> </li>
             <li><a href="photos.html"><i class="fa fa-fw fa-wrench"></i>Photos</a></li>
             <li><a href="Educations.html"><i class="fa fa-fw fa-user"></i>Educations</a></li>
             <li><a href="Conatact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
           </ul>
     </div>  
-    <div>
-      <button class="btn"><i class="fa fa-download"></i> Download</button>
-    </div>
-    <div>
-      <p class="p">This is buuton search for something...</p>
-      <input type="search" placeholder="Search.." name="search2">
-    </div>
     <h2>Login Form</h2>
-  <div class="Form-login">
-   <form action="/action_page.php" method="post">
-      <div class="imgcontainer">
-          <img src="images/14 (1).png" alt="Avatar" class="avatar">
-      </div>
-      <div class="container">
-        <label for="uname"><b>Username</b></label><br>
-        <input type="text" placeholder="Enter Username" name="uname" required><br>
-
-       <label for="psw"><b>Password</b></label><br>
-       <input type="password" placeholder="Enter Password" name="psw" required><br>
-        
-      <button type="submit">Login</button><br>
-      <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-     </label>
+   <div class="Form-login">
+     <form action="/action_page.php" method="post">
+       <div class="imgcontainer">
+          <img src="images/profile.png" alt="Avatar" class="avatar">
+       </div>
+       <div class="container">
+           <label for="uname"><b>Username</b></label><br>
+           <input type="text" placeholder="Enter Username" name="uname" required><br>
+           <label for="psw"><b>Password</b></label><br>
+           <input type="password" placeholder="Enter Password" name="psw" required><br>
+           <button type="submit">Login</button><br>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+     </div>
+     <div class="container">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+     </div>
+   </form>
    </div>
-   <div class="container" style="background-color:#f1f1f1">
-     <button type="button" class="cancelbtn">Cancel</button>
-     <span class="psw">Forgot <a href="#">password?</a></span>
+   <div class="text-google">Welcome click on google</div>
+   <div class="map-container">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501668.85620000307!2d104.04239450555512!3d10.789244698561983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310905ad816f8233%3A0xfcf397aabf9d3301!2sKampot%20Province!5e0!3m2!1sen!2skh!4v1611741624666!5m2!1sen!2skh" width="100%" height="90%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
    </div>
-  </form>
- </div>
+   <div>
+    <button class="btn"><i class="fa fa-download"></i> Download</button>
+  </div>
+   <div class="class footer">Footer</div>
 </body>
 </html>
               
