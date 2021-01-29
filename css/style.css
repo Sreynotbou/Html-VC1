@@ -162,8 +162,7 @@ p{
   margin-bottom:50px;
   margin-left: 300px;
   width: 100%;
-
-  width: 100%;
+  margin:auto;
 }
 input[type=text], input[type=password] {
   width: 60%;
@@ -198,7 +197,7 @@ button:hover {
   margin: 24px 0 12px 0;
   width: 560px;
   display: block;
-  margin-left: 460px;
+  margin-left: 290px
 }
 
 img.avatar {
@@ -296,13 +295,16 @@ div.desc {
 /* / */
 /* # images in Page Educations */
 .gallery-eduacations{
-    margin: 20px;
+    margin: 50px;
+    padding:30px;
     border: 1px solid #ccc;
     float: left;
     width:30%;
-    margin-left: 200px;
-    height: 90vh;
+    height: 50vh;
     margin-top: 100px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   div.gallery-.gallery-eduacations {
@@ -311,13 +313,41 @@ div.desc {
   
   div.gallery-eduacations img {
     width: 100%;
-    height: auto;
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
     font-size: 25px;
+    color: blue;
+  }
+  div.desc p{
+    color:black;
+  }
+  div.desc:hover{
+    background-color: rgb(220, 231, 220);
+  }
+  .gallery-eduacation{
+    border:5px solid black;
+    background: rgba(27, 212, 172, 0.2);
+  }
+  .gallery-eduacation:hover{
+    background:rgb(230, 243, 243);
+  }
+ .gallery-eduacation img{
+    width: 100%;
+    height: 70vh;
+  }
+  .de{
+    padding :15px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+  }
+  .de p{
+    color: blue;
+    font-size: 20px;
   }
 /* #style css of class h3 */
 .h3 p{
