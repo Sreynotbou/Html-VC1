@@ -36,45 +36,33 @@ ul li a:hover{
     background-color: rgb(26, 42, 138);
 }
 /* # style photos 2 introducations self */
-.row{
-  margin-left: 300px;
+.v{
+  width: 350px;
 }
-.column {
-  float: left;
-  width:33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+.v img{
+  width: 450px;
+  border-radius: 2000px;
+  margin-top: 10px;
+  margin-bottom: 550px;
 }
-.home-p:hover{
-   background: #f6e58d;
+.v h1{
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top:20px
 }
-.home-pp:hover{
-  background:#7f8fa6;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 6px;
-}
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
+.container h2 p{
+  margin-bottom: 200px;
 
-.container {
-  padding: 0 16px;
 }
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+.container button{
+  margin-bottom: 200px;
+  height: 30px;
 }
-
 .title {
-  color: grey;
+  color:green;
+  font-size: 20px;
 }
+/* # */
 
 .button {
   border: none;
@@ -95,18 +83,16 @@ ul li a:hover{
 .icon{
   /* margin-top: 200px; */
   margin-top:10%;
-  margin-right:10% ;
-  background: rgba(228, 221, 221, 0.2);
+  margin-right:10%;
   height:130px;
   width: 800px;
-  padding:10px;
 }
 /* # end code css in homepage */
   /* images in homepage  */
   .imags img{
-    width:320px;
-    margin-left: 100px;
-    height: 30vh;
+    width:50%;
+    height: 90vh;
+    border: 4px solid rgb(76, 221, 160);
   }
   .photo img{
     width: 360px;
@@ -114,10 +100,7 @@ ul li a:hover{
     height: 24vh;
   } 
   /* / */
-  footer {
-     background-color: rgb(34, 32, 32);
-
-  }
+  
   /* footer p{
       margin-top: 20px;
       text-align: center;
@@ -126,18 +109,18 @@ ul li a:hover{
       align-items: center;
   } */
   h1{
-    font-size: 20px;
+    font-size: 10px;
     margin-top:100px;
     width:100%;
 
   }
   h1:hover{
-    background: orange;
+    background: rgb(241, 235, 223);
   }
   h4{
     text-align: center;
-    font-size: 50px;
-    color:rgb(13, 172, 92);
+    font-size: 40px;
+    color:rgb(13, 16, 172);
     
   }
 .h4{
@@ -154,8 +137,11 @@ ul li a:hover{
    font-size: 30px;
 }
 p{
-    font-size: 20px;
+    font-size: 10px;
+    color: blue;
 }
+
+/* form login in Page contact */
 /* form login in Page contact */
 .Form-login{
   border-radius: 50px;
@@ -165,7 +151,7 @@ p{
   margin:auto;
 }
 input[type=text], input[type=password] {
-  width: 60%;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -180,11 +166,12 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 60%;
+  width: 100%;
 }
 button:hover {
   opacity: 0.8;
 }
+
 
 .cancelbtn {
   width: auto;
@@ -214,18 +201,18 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
-}
-/* style text-google map */
+}/* style text-google map */
 .text-google{
    font-size: 30px;
 }
 /* # style google map{ */
 
 .map-container{
-    height: 60vh;
-    width: 100%;
-    flex-wrap: wrap;
-  }
+  height: 60vh;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
 /* # end form -login  */
 
 /* Change styles for span and cancel button on extra small screens */
@@ -236,21 +223,17 @@ h3{
   margin-bottom:5px;
 }
 h2{
-  color: white;
+  color: rgb(37, 16, 16);
   text-transform: uppercase;
 }
 .text{
   font-size: 20px;
 }
-
-.index img{
-  width: 90%;
-  height: 90vh;
-}
-.index-text{
-  font-size: 50px;
+.index-text p{
+  font-size: 30px;
   color: blue;
   text-align: center;
+  margin-bottom:990px;
 }
 .foot{
   background: orange;
@@ -266,10 +249,9 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width:30%;
-  height: 70vh;
+  height: 100vh;
   margin-top: 100px;
 }
-
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -282,7 +264,10 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
+}
+div.desc p{
+  font-size: 10px;
 }
 /* #finish of put photos in page photos */
 
@@ -300,7 +285,7 @@ div.desc {
     border: 1px solid #ccc;
     float: left;
     width:30%;
-    height: 50vh;
+    height: 70vh;
     margin-top: 100px;
     display: flex;
     margin-right: auto;
@@ -308,11 +293,12 @@ div.desc {
   }
   
   div.gallery-.gallery-eduacations {
-    border: 1px solid #777;
+    border: 1px solid rgb(238, 83, 83);
   }
   
   div.gallery-eduacations img {
     width: 100%;
+    border: 5px solid rgb(15, 78, 82);
   }
   
   div.desc {
@@ -323,12 +309,13 @@ div.desc {
   }
   div.desc p{
     color:black;
+    font-size: 15px;
   }
   div.desc:hover{
     background-color: rgb(220, 231, 220);
   }
   .gallery-eduacation{
-    border:5px solid black;
+    border:5px solid rgb(245, 155, 155);
     background: rgba(27, 212, 172, 0.2);
   }
   .gallery-eduacation:hover{
@@ -352,7 +339,7 @@ div.desc {
 /* #style css of class h3 */
 .h3 p{
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 /* class box */
 .box{
@@ -417,4 +404,16 @@ div.desc {
 /* Google dowload */
 .btn{
   width:300px;
+}
+/* # Footer icons under */
+.footer{
+  background: rgb(240, 223, 73);
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding:10px;
 }
